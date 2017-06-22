@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="common"></include>
+<exclude name="Smoke"></exclude>
+<include name="Sanity"></include>
+<include name="Regression"></include>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="opentaps.lead.CreateContact"/>
+      <class name="opentaps.lead.EditContact"/>
+      <class name="opentaps.lead.DeleteContact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

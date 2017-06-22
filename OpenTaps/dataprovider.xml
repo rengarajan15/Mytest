@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://demo.opentaps.org"></parameter>
+<parameter name="username" value="DemoSalesManager"></parameter>
+<parameter name="password" value="crmsfa"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="opentaps.lead.EditContact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
